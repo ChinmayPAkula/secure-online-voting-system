@@ -61,3 +61,31 @@ secure voting workflows can be designed and enforced in a web application.
 
 ## Project Structure
 
+<pre>
+secure-online-voting-system/
+│
+├── backend/
+│   ├── app.py        # Flask application entry point
+│   ├── auth.py       # Authentication logic (login/signup)
+│   ├── voting.py    # Ballot creation and voting logic
+│   └── database.py  # Database connection and queries
+│
+├── frontend/
+│   ├── index.html   # Landing / results page
+│   ├── login.html   # Login and signup page
+│   ├── vote.html    # Voting interface
+│   └── style.css    # Basic styling
+│
+├── requirements.txt
+└── README.md
+</pre>
+
+---
+
+## Project Status
+
+🚧 **In Progress**
+
+This project is actively being developed to strengthen backend development skills,
+understand full-stack system design, and practice security-conscious programming.
+---
